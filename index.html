@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="My Personal Portfolio"/>
+    <meta property="og:image" content=”https://cdn-icons.flaticon.com/png/512/2721/premium/2721620.png?token=exp=1652035649~hmac=98184b650e7ff94393a6b96fb340a355 />
+    <script src="https://kit.fontawesome.com/c891029cf9.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./icon.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./resp.css">
+    <link rel="stylesheet" href="./loader.css">
+    <script src="./loader.js"></script>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div class="loading hidden">
+        <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+    <header>
+        <a  href="./index.html"><img src="./programming.png"></a>
+        <div class="burgerMenu" onclick="toggleMobileMenu(this), moveMenu()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a onclick="moveMenu()" href="#home">Home</a></li>
+                <li><a onclick="moveMenu()" href="#about">About</a></li>
+                <li><a onclick="moveMenu()" href="#skills">Skills</a></li>
+                <li><a onclick="moveMenu()" href="#project">Projects</a></li>
+                <li><a onclick="moveMenu()" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="home__text-home">
+            <h2>Hello, I'm <br><span>George Inaneishvili.</span></h2>
+            <h3>And I'm a <span style="color: #505863;" class="txt-rotate" data-period="2000" data-rotate='["Web developer."]'>Web developer</span><h3>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About me</h2>
+        </div>
+        <div class="content scroll">
+            <div class="content__content-text both scroll">
+                <h3>I'm a Front-End Developer</h3>
+                <p>
+                    Hi, My name is George, I'm 16 years old, I'm from <a target="_blank" style="text-decoration: none;" href="https://en.wikipedia.org/wiki/Georgia_(country)">
+                    <span style="color: red;">Georgia<sup><img width="15px" src="./georgia.png"></sup></span></a>
+                    this is not a state, this is a country in the Caucasus,
+                    I learn Programming and i want became one of the coolest developer. <br><br>
+                    I believe I will study the web development better, and develop my knowledge,
+                    I also want to study UX / UI web design in the future, And mastered both professions.
+                </p>
+            </div>
+            <center>
+                <div class="content-img both scroll">
+                    <img class="content-img__img" src="./myportfolio.jpg">
+                </div>
+            </center>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2 style="color: white;">Skills</h2>
+        </div>
+        <div class="skills__container">
+            <div class="skills__container__skills-box scroll">
+                <li>
+                    <h3>HTML5</h3><span class="skills__container__skills-box__bar"><span class="skills__container__skills-box__bar__html"></span></span>
+                </li>
+                <li>
+                    <h3>CSS3</h3><span class="skills__container__skills-box__bar"><span class="skills__container__skills-box__bar__css"></span></span>
+                </li>
+                <li>
+                    <h3>BEM</h3><span class="skills__container__skills-box__bar"><span class="skills__container__skills-box__bar__bem"></span></span>
+                </li>
+                <li>
+                    <h3>JQUERY</h3><span class="skills__container__skills-box__bar"><span class="skills__container__skills-box__bar__jquery"></span></span>
+                </li>
+                <li>
+                    <h3>JAVASCRIPT</h3><span class="skills__container__skills-box__bar"><span class="skills__container__skills-box__bar__javascript"></span></span>
+                </li>
+            </div>
+            <div class="skills__container__certificate scroll">
+                <img width="500px" src="./242722446_184977747043441_4381888756417983025_n.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="project" id="project">
+        <div class="heading">
+            <h2>Projects</h2>
+        </div>
+        <div class="project__container scroll">
+            <div class="project__container__box scroll">
+                <div class="project__container__box__video">
+                    <video width="300px" autoplay src="./ezgif.com-gif-maker (3).mp4"></video>
+                </div>
+                <br>
+                <div class="project__container__box__text">
+                    <h4>
+                        <center>
+                            I created a copy of the Zedazeni site, home page only.
+                        </center>
+                    </h4>
+                </div>
+                <a target="_blank" href="https://giorgiinana53.github.io/zedazeniBeta.io//#">
+                    <div class="project__container__box__icon">
+                        <i class="far fa-hand-point-right"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="project__container__box scroll">
+                <div class="project__container__box__video">
+                    <video width="300px" autoplay style="pointer-events: none;" src="./ezgif.com-gif-maker (2).mp4"></video>
+                </div>
+                <br>
+                <div class="project__container__box__text">
+                    <h4>
+                        <center>
+                            My first portfolio with html css jquery and javascript.
+                        </center>
+                    </h4>
+                </div>
+                <a target="_blank" href="https://giorgiinana53.github.io/George.Portfolio/index.html">
+                    <div class="project__container__box__icon">
+                        <i class="far fa-hand-point-right"></i>
+                    </div>
+                </a> 
+            </div>
+            <div class="project__container__box scroll">
+                <div class="project__container__box__video">
+                    <video width="300px" autoplay src="./ezgif.com-gif-maker (5).mp4"></video>
+                </div>
+                <br>
+                <div class="project__container__box__text">
+                    <h4>
+                        <center>
+                            My first project that will be completed soon.
+                        </center>
+                    </h4>
+                </div>
+                <a target="_blank" href="http://geotutors.net/">
+                    <div class="project__container__box__icon">
+                        <i class="far fa-hand-point-right"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="project__container__box scroll">
+                <div class="project__container__box__video">
+                    <video width="300px" autoplay style="pointer-events: none;" src="./task_list.mp4"></video>
+                </div>
+                <br>
+                <div class="project__container__box__text">
+                    <h4>
+                        <center>
+                            This is a list of task where you can find and delete them.
+                        </center>
+                    </h4>
+                </div>
+                <a target="_blank" href="https://giorgiinana53.github.io/Task-List/">
+                    <div class="project__container__box__icon">
+                        <i class="far fa-hand-point-right"></i>
+                    </div>
+                </a> 
+            </div>
+            <div class="project__container__box scroll">
+                <div class="project__container__box__video">
+                    <video width="300px" autoplay style="pointer-events: none;" src="./number_guesser.mp4"></video>
+                </div>
+                <br>
+                <div class="project__container__box__text">
+                    <h4>
+                        <center>
+                            This is a game where you have to guess the number.
+                        </center>
+                    </h4>
+                </div>
+                <a target="_blank" href="https://giorgiinana53.github.io/Number-Guesser/">
+                    <div class="project__container__box__icon">
+                        <i class="far fa-hand-point-right"></i>
+                    </div>
+                </a> 
+            </div>
+            <div class="project__container__box scroll">
+                <div class="project__container__box__video">
+                    <video width="300px" autoplay style="pointer-events: none;" src="./list of books.mp4"></video>
+                </div>
+                <br>
+                <div class="project__container__box__text">
+                    <h4>
+                        <center>
+                            this webSite is book store, with local storage.
+                        </center>
+                    </h4>
+                </div>
+                <a target="_blank" href="https://giorgiinana53.github.io/Book_Store/">
+                    <div class="project__container__box__icon">
+                        <i class="far fa-hand-point-right"></i>
+                    </div>
+                </a> 
+            </div>       
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2 style="color: white;">Contact me</h2>
+        </div>
+        <div class="contact__content">
+            <div class="content__all scroll">
+                <div class="contact__one">
+                    <div class="contact__content__info">
+                        Contact Info
+                    </div>
+                    <div class="contact__content__box">
+                        <div class="contact__content__box__elements">
+                            <div class="contact__content__box__icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="contact__content__box__text">
+                                <h3>Address</h3>
+                                <p>Georgia,<br>Kutaisi<br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact__content__box">
+                        <div class="contact__content__box__elements">
+                            <div class="contact__content__box__icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="contact__content__box__text">
+                                <h3>Phone</h3>
+                                <p>+995 598-758-858</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact__content__box">
+                        <div class="contact__content__box__elements">
+                            <div class="contact__content__box__icon">
+                                <i class="fa fa-envelope-o"></i>
+                            </div>
+                            <div class="contact__content__box__text">
+                                <h3>Email</h3>
+                                <p>giorgiinana53@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact__content__box__social">
+                            <a href="https://www.facebook.com/giorgi.inaneishvili.79"  target="_blank">
+                                <div class="contact__content__box__social__fb">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/giorgi-inaneishvili-5220b021a/"  target="_blank">
+                                <div class="contact__content__box__social__link">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="https://www.instagram.com/george_inaneishvili/"  target="_blank">
+                                <div class="contact__content__box__social__inst">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="https://github.com/giorgiinana53"  target="_blank">
+                                <div class="contact__content__box__social__git">
+                                    <i class="fa fa-github" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__two">
+                    <div class="contact__form--box">
+                        <form>
+                            <h3>Message Me</h3>
+                            <input type="text" name="" placeholder="Name">
+                            <input type="email" name="" placeholder="Email">
+                            <textarea placeholder="Write Message"></textarea>
+                            <input class="contact__form--box__btn" type="submit" value="Send Message">
+                        </form>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+<script src="home.js" defer>
+</script>
+</body>
+</html>
